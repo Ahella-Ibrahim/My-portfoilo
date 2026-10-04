@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <h1>Ahella Ibraheem</h1>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">
+                        ☰
+                </label>
+            <nav>
+                <ul class="homa-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Content</a></li>
+                    <li><a href="#footer">Footer</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div id="home">
+        <h2>Web Developer & Creative Coder</h2>
+        <p>Hi, I’m Ahella Ibraheem. I create simple, responsive, and user-friendly websites.</p>
+        <div>
+            <button>View My Projects</button>
+            <button>Contact Me</button>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            My journey in web development is full of learning and practice. I am learning HTML, CSS, JavaScript, 
+            and React. My goal is to become a professional Front-End Developer and create simple, beautiful, and responsive websites. 
+            I will keep learning and improving my skills.
+        </p>
+    </div>
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <p>I can create structured, beautiful, and responsive websites.</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>I use JavaScript to make websites interactive and dynamic.</p>
+            </div>
+            <div class="skill-card">
+                <h3>React</h3>
+                <p>I am learning React to build modern and reusable interfaces.</p>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <h2>My Projects</h2>
+        <div id="project-container">
+            <div class="project-card">
+                <h3>Metro Store</h3>
+                <p>A simple and modern online store for shopping and browsing products.</p>
+            </div>
+            <div class="project-card">
+                <h3>Brew Haven</h3>
+                <p>A warm and beautiful coffee shop website for exploring coffee and drinks.</p>
+            </div>
+            <div class="project-card">
+                <h3>Hotel Website</h3>
+                <p>A simple and modern hotel website for viewing rooms and hotel services.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p class="contact-text">
+                Have a question or want to work together? Send me a message.
+            </p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <p id="form-message"></p>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>© 2026 Ahella Ibraheem. All Rights Reserved.</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
